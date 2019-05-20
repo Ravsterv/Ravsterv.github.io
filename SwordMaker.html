@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\rhysv\Documents\2019\Digital Solutions\Term 1\Html Files\Exploitsstylesheet.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+<h2>Sowrd Maker</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <button onclick="woodClick()">Collect Wood</button>
+	<p id='Wood2'></p>
+  </article>
+</section>
+
+<footer>
+  <p>Sword Maker Limited</p>
+</footer>
+<script>
+var wood = 0;
+var wpc = 1;
+//document.getElementById('Wood').innerHTML=wood;
+function woodClick(){
+	wood+=wpc
+	document.getElementById('Wood2').innerHTML=wood
+	//var totalWood = wood + wpc;
+	
+	//document.getElementById("Wood").innerHTML=totalWood;
+}
+
+</script>
+</html>
