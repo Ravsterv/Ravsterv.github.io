@@ -21,6 +21,8 @@
   <article>
     <button onclick="woodClick()">Collect Wood</button>
 	<p id='Wood2'></p>
+    <button id='wSword' onclick='wSwordClick()' style='visibility:hidden'>Wood Sword</button>
+	<p id='wSWord'></p>
   </article>
 </section>
 
@@ -37,6 +39,23 @@ function woodClick(){
 	//var totalWood = wood + wpc;
 	
 	//document.getElementById("Wood").innerHTML=totalWood;
+	if (wood == 50){
+	document.getElementById('wSword').style.visibility= 'visible';
+}
+}
+var wspc=1;
+var wsword=0;
+var wswordprice=3;
+function wSwordClick(){
+	if (wood < wswordprice){
+	
+	}else{
+		
+	wsword+=wspc;
+	wood-=wswordprice;
+	document.getElementById('wSWord').innerHTML=wsword;
+	document.getElementById('Wood').innerHTML=wood;
+	}
 }
 
 </script>
