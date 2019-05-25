@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="Exploitsstylesheet.css">
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<header>
+
+<h2>Exploits stories and clubs</h2>
+
+</header>
+
+
+
+
+
+<section>
+
+  <nav>
+
+    <ul>
+
+      <li><a href="index.html">Home</a></li>
+
+    </ul>
+
+  </nav>
+
+  
+
+  <article>
+
+    <h1>Welcome</h1>
+
+    <a href='https://www.free2go.com.au/'>Go to the Free2Go Website here</a.
+
+  </article>
+
+</section>
+
+
+
+<footer>
+
+  <p>limited copyright for all events that have accured</p>
+
+</footer>
+
+</html>
